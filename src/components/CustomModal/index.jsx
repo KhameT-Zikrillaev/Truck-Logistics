@@ -58,9 +58,9 @@ export default function Modal({ isOpen, title, closeModal, selectName }) {
   return (
     <>
       {isOpen && (
-        <div className="fixed px-8 inset-0 bg-black bg-opacity-60 flex justify-center items-center z-50 animate-fadeIn">
+        <div className="fixed px-8 inset-0 bg-black bg-opacity-60 flex justify-center items-center z-[99] animate-fadeIn">
           <div className="bg-black p-8 rounded-3xl shadow-2xl w-full max-w-lg transform scale-110 transition-all duration-500 ease-in-out">
-            <h2 className=" text-3xl md:text-4xl font-semibold text-white text-center mb-10 tracking-wide">{title}</h2>
+            <h2 className=" text-3xl md:text-4xl font-semibold text-white text-center mb-4 md:mb-10 tracking-wide">{title}</h2>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="flex flex-col">
                 <label htmlFor="name" className="text-xl font-medium text-white mb-2">{t('modal.fields.name')}</label>
