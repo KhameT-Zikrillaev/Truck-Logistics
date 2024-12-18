@@ -21,13 +21,15 @@ const HomeFourSwiperPage = () => {
   };
 
   return (
-    <div className="fourInfoSwiper p-12">
+    <div className="fourInfoSwiper p-6 md:p-12">
       <Swiper
         spaceBetween={30} // Расстояние между слайдами
         slidesPerView={4} // Показывать 4 слайда одновременно
-        loop={true} // Зацикливание слайдера
-        navigation={true} // Включение кнопок навигации
-        pagination={{ clickable: true }} // Включение пагинации
+        loop={true} // Зацикливание слайдераи
+        autoplay={{ 
+          delay: 1000, // Задержка между слайдами в миллисекундах
+          disableOnInteraction: true, // Автопрокрутка не отключается при взаимодействии
+        }}
         breakpoints={{
           1920: {
             slidesPerView: 4,

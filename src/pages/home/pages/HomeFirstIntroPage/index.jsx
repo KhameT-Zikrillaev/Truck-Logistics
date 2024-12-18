@@ -13,7 +13,7 @@ export default function Index() {
   return (
     <>
       <div
-        className="intropage flex justify-center items-center h-screen p-8 relative"
+        className="intropage flex justify-center items-center h-screen p-2  md:p-8 relative"
         style={{
           backgroundImage: `url(${Introbg})`,
           backgroundSize: 'cover',
@@ -34,14 +34,15 @@ export default function Index() {
             </p>
             <button
               onClick={openModal}
-              className="px-10 py-5 bg-gradient-to-r from-red-500 to-yellow-500 text-white font-semibold text-xl rounded-full shadow-xl hover:scale-110 transition-all duration-300 transform animate__animated animate__fadeInLeft animate__delay-2.5s"
+              className="  px-6 py-3  md:px-10 md:py-5 bg-gradient-to-r from-red-500 to-yellow-500 text-white font-semibold text-xl rounded-full shadow-xl hover:scale-110 transition-all duration-300 transform animate__animated animate__fadeInLeft animate__delay-2.5s"
             >
               {t('home.HomeFirstIntroPage.ButtonText')}
             </button>
           </div>
         </div>
-        <Modal isOpen={isOpenModal} title={t('home.HomeFirstIntroPage.ModalTitle')} closeModal={closeModal} />
+      
       </div>
+      <Modal isOpen={isOpenModal} title={t('home.HomeFirstIntroPage.ModalTitle')} closeModal={closeModal} />
     </>
   );
 }

@@ -50,17 +50,17 @@ export default function HomeThreeInfoPage() {
             <div className="absolute -inset-1 bg-gradient-to-br from-red-500 to-yellow-500 opacity-20 transform scale-110 group-hover:scale-125 transition-all duration-700 ease-out"></div>
 
             {/* Иконка с эффектом вращения и смещения */}
-            <div className="relative z-10 w-28 h-28 bg-gradient-to-br from-red-500 to-orange-500 shadow-lg rounded-full flex items-center justify-center mx-auto group-hover:rotate-45 group-hover:translate-y-6 transition-all duration-700">
+            <div className="relative z-10  w-20 h-20   md:w-28 md:h-28 bg-gradient-to-br from-red-500 to-orange-500 shadow-lg rounded-full flex items-center justify-center mx-auto group-hover:rotate-45 group-hover:translate-y-6 transition-all duration-700">
               {item.icon}
             </div>
 
             {/* Заголовок карточки */}
-            <h3 className="mt-10 relative z-10 text-2xl font-bold text-center text-gray-900 group-hover:text-white transition-colors duration-500">
+            <h3 className=" mt-5  md:mt-10 relative z-10 text-2xl md:text-3xl font-bold text-center text-gray-900 group-hover:text-white transition-colors duration-500">
               {item.title}
             </h3>
 
             {/* Описание карточки */}
-            <p className="mt-4 relative z-10 text-center text-gray-600 group-hover:text-gray-200 transition-colors duration-500">
+            <p className="  mt-2 md:mt-4 relative z-10 text-center text-gray-600 group-hover:text-gray-200 transition-colors duration-500">
               {item.description}
             </p>
 

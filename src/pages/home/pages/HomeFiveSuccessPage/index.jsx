@@ -20,7 +20,7 @@ export default function Index() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+      setIsMobile(window.innerWidth < 1280);
     };
 
     window.addEventListener('resize', handleResize);

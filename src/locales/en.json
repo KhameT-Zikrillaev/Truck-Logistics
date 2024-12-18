@@ -128,5 +128,10 @@
       "submit": "Submit",
       "close": "Close"
     }
+  },
+  "successModal": {
+    "title": "Successfully sent!",
+    "message": "Thank you! We will contact you shortly.",
+    "closeButton": "Close"
   }
 }
