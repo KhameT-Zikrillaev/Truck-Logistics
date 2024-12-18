@@ -1,0 +1,101 @@
+/* Общий контейнер */
+.loading-container {
+    position: relative;
+    animation: fade-in-scale 1s ease-in-out; /* Плавное появление */
+    text-align: center;
+    z-index: 10; /* Над фоном */
+  }
+  
+  /* Фоновая анимация */
+  .background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(90deg, #000000, #000000, #000000); /* Тёмные цвета фона */
+    animation: move-background 4s linear infinite;
+    z-index: 1; /* Позади */
+  }
+  
+  /* Анимация движения фона */
+  @keyframes move-background {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Картинка грузовика */
+  .truck-image {
+    width: 150px; /* Увеличенный размер изображения */
+    margin-bottom: 20px; /* Отступ от шариков */
+    animation: bounce-truck 2s infinite ease-in-out; /* Эффект "прыжка" */
+  }
+  
+  /* Анимация грузовика */
+  @keyframes bounce-truck {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Лёгкий подъём */
+    }
+  }
+  
+  /* Шарики */
+  .ball {
+    width: 12px;
+    height: 12px;
+    background-color: #ff0000; /* Teal цвет */
+    border-radius: 50%;
+    animation: grow-shrink 1.5s infinite ease-in-out;
+    opacity: 0.6; /* Начальная прозрачность */
+  }
+  
+  /* Позиционирование шариков для симметрии */
+  .balls-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Шарики по очереди */
+  .ball-left {
+    animation-delay: 0s; /* Левый */
+  }
+  
+  .ball-center {
+    animation-delay: 0.3s; /* Центральный */
+  }
+  
+  .ball-right {
+    animation-delay: 0.6s; /* Правый */
+  }
+  
+  /* Анимация шариков */
+  @keyframes grow-shrink {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 1;
+    }
+  }
+  
+  /* Плавное появление контейнера */
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

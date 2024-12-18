@@ -1,0 +1,132 @@
+{
+  "navbar": {
+    "title": "LogiTruck",
+    "menu": {
+      "about": "About Us",
+      "skills": "Our Advantages",
+      "contact": "Contacts",
+      "contactUs": "Contact Us"
+    },
+    "modal":{
+      "title": "Contact Us"
+    }
+  },
+  "home": {
+    "HomeFirstIntroPage": {
+      "Title": "We deliver with speed and safety guaranteed!",
+      "Description": "Our fleet consists of the best trucks in their class, ready to deliver your goods quickly, safely, and on time, no matter where you're headed.",
+      "ButtonText": "Start with us",
+      "ModalTitle": "Start with us"
+    },
+    "HomeSecondAboutPage": {
+      "Title": "About Us",
+      "Description1": "We are a dedicated team committed to providing the best services to our clients. Our mission is to deliver quality and excellence in everything we do.",
+      "Description2": "Our team consists of experienced professionals who are passionate about their work and strive to exceed client expectations.",
+      "Description3": "Join us on our journey to make a difference in the industry and provide exceptional value to our customers.",
+      "ContactText": "Contact us today to learn more about our services and how we can help you achieve your goals!"
+    },
+    "HomeThreeInfoPage": {
+      "Title": "Reliability and Safety",
+      "Description": "We guarantee reliable and safe delivery of your goods using modern technologies and proven methods.",
+      "Card1": {
+        "Title": "Experienced Team",
+        "Description": "Our team consists of experienced professionals ready to provide high-level service and support."
+      },
+      "Card2": {
+        "Title": "Customer Support",
+        "Description": "We are always ready to help you with any questions or suggestions, providing quality support 24/7."
+      },
+      "Card3": {
+        "Title": "Global Network",
+        "Description": "Our network covers many countries, allowing us to offer flexible and effective delivery solutions."
+      },
+      "Card4": {
+        "Title": "Fast Delivery",
+        "Description": "Fast and reliable delivery, experienced team, and 24/7 support."
+      }
+    },
+    "HomeFourSwiperPage": {
+      "modalTitle": "Delivery",
+      "cards": {
+        "USA": {
+          "title": "Delivery from USA",
+          "description": "Reliable logistics services for fast and secure shipments from the USA."
+        },
+        "China": {
+          "title": "Delivery from China",
+          "description": "Efficient shipping solutions from China to your location with tracking."
+        },
+        "Global": {
+          "title": "Global Shipping",
+          "description": "We offer worldwide shipping, ensuring your products reach anywhere securely."
+        },
+        "Regional": {
+          "title": "Regional Deliveries",
+          "description": "Fast and affordable delivery services for regional shipments."
+        },
+        "Europe": {
+          "title": "Delivery from Europe",
+          "description": "Affordable and reliable deliveries from Europe to your doorstep."
+        }
+      },
+      "learnMore": "Order now"
+    },
+    "HomeFiveSuccessPage": {
+      "Title": "Our Company Achievements",
+      "YearsInMarket": "years in the market",
+      "ExperienceDescription": "Experience in delivery, time-tested",
+      "Reviews": "reviews",
+      "HappyClients": "Clients are happy with our work",
+      "Partners": "partners",
+      "TrustUs": "They trust us with their deliveries"
+    },
+    "HomeSixContactPage": {
+      "Title": "Delivery from China to Uzbekistan.",
+      "From": "From",
+      "To": "To",
+      "CargoName": "Cargo Name",
+      "Phone": "Phone",
+      "SubmitButton": "Submit"
+    },
+    "HomeSevenLocationPage": {
+      "Title": "Need Reliable Logistics?",
+      "Description": "Contact us today to learn how our modern fleet and logistics expertise can drive your business forward.",
+      "Address": "Tashkent, Mirzo-Ulugbek District, 5th Kurgan Avenue, 32",
+      "Phone": "+998 33 66 00 999",
+      "Email": "azizbek.b@udevs.io"
+    }
+    
+  },
+  "footer": {
+      "title": {
+        "Home": "Home",
+        "AboutUs": "About Us",
+        "OurAdvantage": "Our Advantage",
+        "ContactUs": "Contact Us",
+        "Contacts": "Contacts",
+        "Phone": "+998 94 782 00 92",
+        "CompanyRights": "Your Company. All rights reserved."
+      }
+    },
+    "modal": {
+    "title": "Contact Us",
+    "fields": {
+      "name": "Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "region": "Region",
+      "selectPlaceholder": "Select",
+      "regions": {
+        "USA": "USA",
+        "China": "China",
+        "Global": "Global",
+        "Regional": "Regional",
+        "Europe": "Europe"
+      }
+    },
+    "buttons": {
+      "submit": "Submit",
+      "close": "Close"
+    }
+  }
+}
