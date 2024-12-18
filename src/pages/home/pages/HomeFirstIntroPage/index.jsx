@@ -13,7 +13,7 @@ export default function Index() {
   return (
     <>
       <div
-        className="intropage flex justify-center items-center h-screen p-2  md:p-8 relative"
+        className="intropage flex  justify-center items-center h-screen p-2  md:p-8 relative"
         style={{
           backgroundImage: `url(${Introbg})`,
           backgroundSize: 'cover',
@@ -22,7 +22,7 @@ export default function Index() {
           clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 80px))', // Урезание верхней части фона
         }}
       >
-        <div className="container flex justify-between items-center w-full relative z-10">
+        <div className="container  py-24  flex justify-between items-center w-full relative z-10">
           {/* Левая часть с текстом */}
           <div className="left-content flex-1 text-left text-white p-10 bg-black bg-opacity-50 rounded-lg shadow-2xl transform hover:scale-105 transition-all duration-500">
             <h1 className="text-3xl md:text-7xl font-extrabold leading-tight mb-6 text-shadow-lg animate__animated animate__fadeInLeft animate__delay-1s">

@@ -69,7 +69,7 @@ export default function Modal({ isOpen, title, closeModal, selectName }) {
                   id="name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="p-4 rounded-lg bg-gray-800 text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-red-600 transition-all"
+                  className=" p-2 md:p-4 rounded-lg bg-gray-800 text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-red-600 transition-all"
                   required
                 />
               </div>
@@ -83,7 +83,7 @@ export default function Modal({ isOpen, title, closeModal, selectName }) {
                   maxLength={25}
                   onChange={handlePhoneChange}
                   onKeyPress={handleKeyPress}
-                  className="p-4 rounded-lg bg-gray-800 text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-red-600 transition-all"
+                  className=" p-2  md:p-4 rounded-lg bg-gray-800 text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-red-600 transition-all"
                   required
                 />
               </div>
@@ -95,7 +95,7 @@ export default function Modal({ isOpen, title, closeModal, selectName }) {
                   id="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="p-4 rounded-lg bg-gray-800 text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-red-600 transition-all"
+                  className="  p-2 md:p-4 rounded-lg bg-gray-800 text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-red-600 transition-all"
                   required
                 />
               </div>
@@ -107,7 +107,7 @@ export default function Modal({ isOpen, title, closeModal, selectName }) {
                   value={region}
                   onChange={(e) => setRegion(e.target.value)}
                   required
-                  className="p-4 rounded-lg bg-gray-800 text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-red-600 transition-all"
+                  className="p-2 md:p-4 rounded-lg bg-gray-800 text-white shadow-lg focus:outline-none focus:ring-2 focus:ring-red-600 transition-all"
                 >
                   <option value="">{t('modal.fields.selectPlaceholder')}</option>
                   <option value="USA">{t('modal.fields.regions.USA')}</option>
@@ -118,17 +118,17 @@ export default function Modal({ isOpen, title, closeModal, selectName }) {
                 </select>
               </div>
 
-              <div className="flex justify-between mt-8">
+              <div className="flex justify-between mt-8 ">
                 <button
                   type="submit"
-                  className="bg-red-600 text-white py-3 px-8 rounded-full hover:bg-red-700 transition-all duration-300 transform hover:scale-105"
+                  className="bg-red-600 text-white py-1 px-4 md:py-3 md:px-8 rounded-full hover:bg-red-700 transition-all duration-300 transform hover:scale-105"
                 >
                   {t('modal.buttons.submit')}
                 </button>
                 <button
                   type="button"
                   onClick={closeModal}
-                  className="bg-gray-800 text-white py-3 px-8 rounded-full hover:bg-gray-700 transition-all duration-300 transform hover:scale-105"
+                  className="bg-gray-800 text-white py-1 px-4 md:py-3 md:px-8 rounded-full hover:bg-gray-700 transition-all duration-300 transform hover:scale-105"
                 >
                   {t('modal.buttons.close')}
                 </button>
